@@ -8,7 +8,7 @@ Spring Security LDAP Server (Online) Authentcation Example
 
 Online LDAP Test Server: https://www.forumsys.com/2022/05/10/online-ldap-test-server/
 
-## Login example (users.ldif)
+## Login example
 
 Username: tesla
 
