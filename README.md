@@ -24,5 +24,5 @@ $ mvn test -e
 ## Source file / directory structure
 
 <p align="center">
-  <img src="https://i.imgur.com/WoKJXb7.png" width="400" alt="Spring Security LDAP Server Authentication Image" />
+  <img src="https://i.imgur.com/GiB92Io.png" width="400" alt="Spring Security LDAP Server Authentication Image" />
 </p>
