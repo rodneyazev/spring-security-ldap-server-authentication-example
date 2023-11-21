@@ -1,5 +1,7 @@
 package com.database.app.controller;
 
+import java.security.Principal;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,8 +9,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class LDAPController {
 	
 	@GetMapping("/")
-	public String home() {
-		return "Hello";
+	public String user(Principal principal) {
+		return "Hello, " + principal.getName();
+	}
+	
+	@GetMapping("/error")
+	public String error() {
+		return "Access denied. Not enough permission.";
+	}
+
+	public String getErrorPath() {
+		return error();
 	}
 
 }
